@@ -1,0 +1,17 @@
+.home__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+    .home__wrapper {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home__wrapper {
+        justify-content: center;
+    }
+}
